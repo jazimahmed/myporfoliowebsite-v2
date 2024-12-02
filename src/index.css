@@ -1,0 +1,96 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+div ul li{
+  @apply px-4;
+}
+div ul li a{
+  @apply hover:text-amber-300;
+}
+
+.bg-primary {
+  background: #243642;
+}
+.bg-secondary {
+  background: #387478;
+}
+.bg-3 {
+  background: #629584;
+}
+.bg-4 {
+  background: #E2F1E7;
+}
+.text-primary{
+  color: #243642;
+}
+.text-secondary{
+  color:#387478;
+}
+.text-3{
+  color:#629584;
+}
+
+
+.mobile-menu{
+  @apply fixed top-16 left-0 bg-3 w-full h-2/5 ;
+}
+.mobile-menu ul li{
+  @apply w-full text-center pt-1 hover:text-amber-300;
+}
+.home-img {
+  object-fit: cover;
+  @apply w-64 h-64 rounded-full overflow-hidden shadow-2xl ;
+}
+html{
+  scroll-behavior: smooth;
+}
+.darker-shadow {
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.6); /* Darker shadow */
+}
+
+
+
+body{
+  background-color: white;
+background-image: url("https://www.transparenttextures.com/patterns/gplay.png");
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+}
+section#hero{
+  background-color: #E2F1E7;
+background-image: url("https://www.transparenttextures.com/patterns/gplay.png");
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+}
+
+section#contact{
+  background-color: #387478;
+background-image: url("https://www.transparenttextures.com/patterns/subtle-white-feathers.png");
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+}
+section#projects{
+  background-color: #387478;
+background-image: url("https://www.transparenttextures.com/patterns/worn-dots.png");
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+}
+
+section#certificates{
+  background-color: #E2F1E7;
+background-image: url("https://www.transparenttextures.com/patterns/worn-dots.png");
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+}
+.bounce {
+  animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+.skillcard{
+  @apply bg-primary h-10 w-10 md:h-16 md:w-16 p-3 rounded-lg m-2 shadow-lg hover:md:h-20 hover:md:w-20 hover:h-14 hover:w-14 transition duration-200 hover:shadow-darker
+
+}
