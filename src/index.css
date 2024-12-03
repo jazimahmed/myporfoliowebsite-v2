@@ -40,7 +40,7 @@ div ul li a{
 }
 .home-img {
   object-fit: cover;
-  @apply w-64 h-64 rounded-full overflow-hidden shadow-2xl ;
+  @apply w-40 h-40 md:w-64 md:h-64 rounded-full overflow-hidden shadow-2xl ;
 }
 html{
   scroll-behavior: smooth;

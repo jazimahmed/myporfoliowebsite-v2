@@ -19,7 +19,7 @@ const Certificates = () => {
     ]
 
   return (
-    <section id='certificates' className='mx-5 shadow-2xl md:h-screen h-auto bg-4 flex flex-col  items-center'>
+    <section id='certificates' className='mx-5 shadow-2xl md:h-screen h-auto bg-4 flex flex-col pb-5 md:pb-0  items-center'>
        
             
         <div className='mt-10'><h1 className='font-bold text-3xl text-secondary'>Certificates</h1></div>

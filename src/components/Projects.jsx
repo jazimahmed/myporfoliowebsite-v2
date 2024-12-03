@@ -7,19 +7,34 @@ import blogpic from '../assets/blog-pic.png'
 const Projects = () => {
     const projectConfig = [
         {
-            title: 'My Portfolio using React and tailwind Css',
+            title: 'Portfolio using React & tailwind',
+            react:true,
+            mongo:false,
+            express:false,
+            node:false,
+            tw:true,
             img: portfolioimg,
             link: '',
             description: 'This is my personal portfolio built using React, Tailwind CSS, and JavaScript. It highlights my skills, projects, and journey as a Full Stack Developer.',
         },
         {
             title: 'todo-list-application-MERN',
+            react:true,
+            mongo:true,
+            express:true,
+            node:true,
+            tw:true,
             img:todopic,
             link: 'https://github.com/jazimahmed/MERN-PROJECTS.git',
             description: 'This is a To do list project built using React, Tailwind css, mongodb , express, Nodejs. simply we can add , edit and delete tasks and it would save to mongo database',
         },
         {
             title: 'simple blog page using MERN',
+            react:true,
+            mongo:true,
+            express:true,
+            node:true,
+            tw:true,
             img:blogpic,
             link: 'https://github.com/jazimahmed/MERN-PROJECTS.git',
             description: 'This is a simple blog project built using React, Tailwind css, mongodb , express, Nodejs. simply we can add , edit and delete blog posts and it would save to mongo database',
@@ -37,6 +52,11 @@ const Projects = () => {
                 width="500" 
                 img={project.img} 
                 title={project.title} 
+                react={project.react}
+                mongo={project.mongo}
+                express={project.express}
+                node={project.node}
+                tw={project.tw}
                 link={project.link}
                 description={project.description} 
                 />

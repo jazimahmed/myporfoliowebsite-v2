@@ -7,7 +7,7 @@ const Contect = () => {
   return (
     <section id='contact' className='mx-5 shadow-2xl flex flex-col md:flex-row justify-center items-center h-auto bg-secondary'>
         <div className='md:w-1/2 mt-14'>
-            <img src={contactmeimg} className='object-cover h-[230px] w-[320px] md:h-[307px] md:w-[427px] m-auto bounce'/>
+            <img src={contactmeimg} className='object-cover h-[190px] w-[250px] md:h-[307px] md:w-[427px] m-auto bounce'/>
         </div>
         <div className='md:w-1/2 md:m-auto mt-10 flex flex-col justify-center items-center'> 
             <h1 className='mb-7 text-xl md:text-3xl font-bold text-white border-b-4 border-white mt-10' >Contact me</h1>

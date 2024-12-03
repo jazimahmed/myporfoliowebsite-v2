@@ -3,7 +3,7 @@ import React from 'react'
 const Skills = () => {
   return (
     <section id="skills" className='flex flex-col items-center m-5 md:h-32 h-36'>
-  <h2 className='text-primary font-bold text-2xl'>Technical <span>Skills</span></h2>
+  <h2 className='text-primary font-bold text-sm md:text-2xl'>Technical <span>Skills</span></h2>
   
   <div className=''>
   
